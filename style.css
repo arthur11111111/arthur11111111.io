@@ -1,0 +1,104 @@
+@charset "UTF-8";
+* {
+  /* border: solid 2px; */
+  font-family: "微軟正黑體";
+}
+* h1, * h2, * h3, * h4, * h5, * h6, * .h1, * .h2, * .h3, * .h4, * .h5, * .h6 {
+  font-weight: bold;
+}
+* nav.navbar {
+  transition: 1s;
+}
+* nav.navbar.navbar-default.navbar-fixed-top.navbar-top {
+  background-color: transparent;
+}
+* nav.navbar.navbar-default.navbar-fixed-top.navbar-top a {
+  color: white;
+  transition: 0.5s;
+}
+* nav.navbar.navbar-default.navbar-fixed-top.navbar-top a:hover {
+  color: green;
+}
+
+header.jumbotron {
+  background-image: url(pic/titleimg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  padding: 250px 0px;
+  color: white;
+  margin-bottom: 0px;
+}
+
+
+
+section#introduce {
+  background-color: #eee;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  transition: 1s;
+}
+section#introduce .introPic{
+  padding-bottom: 30px;
+}
+
+section#introduce img {
+  margin-top: 20px;
+  width: 250px;
+}
+section#Services{
+  padding-top: 20px;
+
+}
+section#Services .spaceimg {
+  background-image: url(pic/servicepic.jpg);
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+}
+
+section#Services h2 {
+  padding-top: 20px;
+  padding-bottom: 70px;
+}
+section#Services h4 {
+  padding-top: 20px;
+
+}
+section#Services .serviceText {
+  text-align: center;
+}
+section#Services .icon img {
+  width: 150px;
+  opacity: 0.8;
+}
+section#Services .fas {
+  font-size: 100px;
+}
+section#Case {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+section#Case h2{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+section#Case .pic img{
+  width: 80%;
+  padding-bottom: 30px;
+}
+section#Case .pic1 img{
+  height: 120%
+}
+footer#contact {
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 0;
+}
+footer#contact h2{
+  padding-bottom: 30px;
+}
+
+footer#contact h4{
+  padding-top: 30px;
+}
